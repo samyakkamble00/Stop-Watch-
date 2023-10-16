@@ -1,0 +1,31 @@
+/* stopwatch.component.css */
+
+/* Style the container for the stopwatch */
+.stopwatch-container {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Style the stopwatch display */
+.stopwatch-display {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the buttons */
+.stopwatch-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Change button color on hover */
+.stopwatch-button:hover {
+  background-color: #0056b3;
+}

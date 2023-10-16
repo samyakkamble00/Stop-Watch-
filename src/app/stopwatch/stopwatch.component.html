@@ -1,0 +1,6 @@
+<div class="stopwatch-container">
+  <h1 class="stopwatch-display">{{ timer | date:'HH:mm:ss' }}</h1>
+  <button class="stopwatch-button" (click)="start()">Start</button>
+  <button class="stopwatch-button" (click)="pause()">Pause</button>
+  <button class="stopwatch-button" (click)="reset()">Reset</button>
+</div>
